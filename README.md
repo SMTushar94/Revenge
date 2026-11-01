@@ -27,3 +27,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the native release direction, limitat
 Each player starts with three pulse charges. A pulse clears all current enemies and enemy projectiles and deals 30% of a boss’s maximum health; use Q (player 1), K (player 2), or the on-screen player 1 PULSE button. Charges reset on a new run.
 
 Vex uses an original full-body sprite based on her concept art, with a simple movement bob rather than a full animation set. Rook and Nova still use procedural prototype sprites.
+
+## City movement
+
+The camera follows the leading living player rather than moving automatically. Walk right to explore a continuous city route through the Old Market, Transit District, and East Waterfront; walk left to revisit earlier blocks. The boss appears at the far end of each route. In local co-op the camera follows the leading player and keeps both players on screen. The district artwork and layout are still procedural prototype content, not a finished open-world city.
